@@ -1,7 +1,10 @@
-1.1 Score Normalization Analysis
-Formula Used (Performance Matrix):
+# Santiago 2035 Analysis: Methodology, Sources, and Bibliography
 
-python
+## PART 1: METHODOLOGY
+
+### 1.1 Score Normalization Analysis
+**Formula Used (Performance Matrix):**
+```python
 # Min-Max Normalization for each category
 Score_normalized = ((Rank_max - Rank_actual) / (Rank_max - Rank_min)) * 100
 
@@ -9,10 +12,11 @@ Score_normalized = ((Rank_max - Rank_actual) / (Rank_max - Rank_min)) * 100
 # Rank_max = 1000 (total cities)
 # Rank_min = 1 (best ranking)
 # Rank_actual = Santiago's ranking in each category
+```
 
-Application:
-
-pythonimport pandas as pd
+**Application:**
+```python
+import pandas as pd
 import numpy as np
 
 # Santiago's data
@@ -27,12 +31,11 @@ df['Normalized_Score'] = ((1000 - df['Rank']) / 999) * 100
 df['Weighted_Contribution'] = df['Normalized_Score'] * df['Weight']
 
 final_score = df['Weighted_Contribution'].sum()
+```
 
-
-1.2 Regression Analysis for Projections
-Formula Used (ROI Analysis):
-
-python
+### 1.2 Regression Analysis for Projections
+**Formula Used (ROI Analysis):**
+```python
 # Exponential regression model for investment returns
 ROI(t) = a * (1 - e**(-b*t)) + c * t
 
@@ -54,13 +57,11 @@ years = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 returns = np.array([0.4, 1.2, 2.8, 4.7, 7.1, 9.8, 12.7, 15.8, 19.2, 23.0])
 
 params, _ = curve_fit(roi_model, years, returns)
+```
 
-
-1.3 Time Series Analysis for Air Quality Projections
-Formula Used:
-
-python
-
+### 1.3 Time Series Analysis for Air Quality Projections
+**Formula Used:**
+```python
 # ARIMA model for PM2.5 projection
 PM2.5(t) = μ + φ₁*PM2.5(t-1) + θ₁*ε(t-1) + Intervention(t)
 
@@ -80,13 +81,11 @@ intervention_effects = {
     2029: -0.35,  # additional 35% Phase 2
     2034: -0.40   # additional 40% Phase 3
 }
+```
 
-
-
-1.4 Linear Optimization for Resource Allocation
-Formula Used (Investment Allocation):
-
-python
+### 1.4 Linear Optimization for Resource Allocation
+**Formula Used (Investment Allocation):**
+```python
 # Linear programming to optimize fund distribution
 from scipy.optimize import linprog
 
@@ -104,12 +103,11 @@ b_ub = [14.3]  # Total budget in billions
 bounds = [(0.5, 4.0), (0.3, 3.5), (0.2, 3.0), (0.1, 2.0), (0.1, 1.5)]
 
 result = linprog(c, A_ub=A_ub, b_ub=b_ub, bounds=bounds)
+```
 
-
-1.5 Monte Carlo Analysis for Risk Assessment
-Formula Used (Risk Assessment):
-
-python
+### 1.5 Monte Carlo Analysis for Risk Assessment
+**Formula Used (Risk Assessment):**
+```python
 # Monte Carlo simulation for NPV under uncertainty
 import numpy as np
 
@@ -134,12 +132,11 @@ def monte_carlo_npv(n_simulations=10000):
 results = monte_carlo_npv()
 probability_positive = (results > 0).mean()
 var_95 = np.percentile(results, 5)  # Value at Risk at 95%
+```
 
-
-1.6 Validation Methods
-Cross-validation approach:
-
-python
+### 1.6 Validation Methods
+**Cross-validation approach:**
+```python
 from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import RandomForestRegressor
 
@@ -151,12 +148,11 @@ y = df['rank_improvement']
 model = RandomForestRegressor(n_estimators=100, random_state=42)
 scores = cross_val_score(model, X, y, cv=5, scoring='r2')
 print(f"Average R²: {scores.mean():.3f}")  # R² = 0.847
+```
 
-
-1.7 Property Valuation Models
-Hedonic pricing model:
-
-python
+### 1.7 Property Valuation Models
+**Hedonic pricing model:**
+```python
 # Impact of green infrastructure on property values
 # Based on: Gascon et al. (2016) "Residential green spaces and mortality"
 property_value_increase = β₀ + β₁*green_space + β₂*air_quality + β₃*transport_access
@@ -165,3 +161,4 @@ property_value_increase = β₀ + β₁*green_space + β₂*air_quality + β₃*
 β₁ = 0.15  # 15% increase for proximity to green areas
 β₂ = 0.08  # 8% increase for improved air quality
 β₃ = 0.12  # 12% increase for metro access
+```
