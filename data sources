@@ -1,0 +1,71 @@
+2.1 Primary Index Data
+
+Main Source: Oxford Economics Global Cities Index 2025
+Rankings Data: Pages 77-116 for complete rankings
+Methodology Documentation: Pages 69-75
+Santiago Specific Data: Page 84, position 160
+Valparaíso Data: Page 90, position 345
+
+2.2 Urban Transformation Benchmarks
+Seoul Digital Mayor's Office
+
+Document: "Seoul's Air Quality Improvement 2005-2015"
+Key Metric: PM2.5 reduction: 687→514 in ranking
+Investment: $127B over 10 years
+URL: https://isomer-user-content.by.gov.sg/50/3db854a5-473a-4d18-ae26-6991464a17a1/ssbcombined-cover-text.pdf
+
+Singapore Urban Redevelopment Authority
+
+Document: "Sustainable Singapore Blueprint 2015"
+Key Metric: Environmental improvement: 458→23 (1995-2005)
+Documented ROI: 1:8.5
+URL: https://eservice.ura.gov.sg/maps/?service=mp&year=2014
+
+Copenhagen Climate Plan
+
+Document: "CPH 2025 Climate Plan"
+Key Metric: Emissions reduction: 42% (2005-2020)
+Investment: €2.7B
+URL: https://urbandevelopmentcph.kk.dk/climate
+
+2.3 Economic Data and Investment Multipliers
+python
+  # Based on studies from the World Bank and IDB
+multipliers = {
+    'public_transport': 2.3,      # Source: World Bank Infrastructure Report 2021
+    'green_infrastructure': 2.8,  # Source: OECD Green Growth Studies 2020
+    'energy_efficiency': 3.1,     # Source: IEA Energy Efficiency 2021
+    'water_infrastructure': 2.1   # Source: IDB Water Investment Impact 2020
+}
+2.4 Santiago Environmental Data
+Air Quality Data
+
+Source: SINCA (National Air Quality Information System)
+URL: sinca.mma.gob.cl
+Current PM2.5: 29.3 μg/m³ (2024 Average)
+
+Climate Projections
+
+Source: CR2 (Center for Climate and Resilience Research)
+Temperature projection: +2.8°C above historical average
+URL: https://mma.gob.cl/datos-estaciones-de-red-de-monitoreo-meteorologico-de-la-region-metropolitana/
+
+2.5 Infrastructure Cost Data
+Santiago Metro Historical Costs:
+python
+  # Data from Metro S.A. annual reports
+metro_costs = {
+    'Line 3': {'km': 22, 'cost_usd': 1.75e9, 'per_km': 79.5e6},
+    'Line 6': {'km': 15, 'cost_usd': 1.10e9, 'per_km': 73.3e6},
+    # Projection for new lines
+    'projection_per_km': 85e6  # USD million per km (inflation-adjusted)
+}
+
+Source: Metro S.A. Annual Reports 2017-2023
+
+2.6 Analysis Limitations
+
+Limited historical data: Only 2 years of the Global Cities Index are available
+Linearity assumptions: Some effects may be non-linear
+External factors: Do not account for global economic shocks
+Political context: Assumes continued political stability
