@@ -1,4 +1,4 @@
-markdown# Santiago's $50 Billion Transformation: From Smog to Smart
+## Santiago's $50 Billion Transformation: From Smog to Smart
 ## Comprehensive Analysis & Financial Model for Urban Sustainability
 
 [![Global Cities Rank](https://img.shields.io/badge/Current%20Rank-160%2F1000-red)](https://oxfordeconomics.com)
@@ -10,7 +10,7 @@ markdown# Santiago's $50 Billion Transformation: From Smog to Smart
 
 ## 🌟 Project Overview
 
-This repository contains a comprehensive analysis and financial model for transforming Santiago, Chile from its current global ranking of #160 to a top 100 sustainable metropolis by 2035. The project addresses Santiago's critical environmental challenges while unlocking massive economic opportunities.
+This repository contains a comprehensive analysis and financial model for transforming Santiago, Chile, from its current global ranking of #160 to a top 100 sustainable metropolis by 2035. The project addresses Santiago's critical environmental challenges while unlocking massive economic opportunities.
 
 ### Current Challenges
 - **Global Cities Rank**: #160/1,000 (Oxford Economics 2025)
@@ -28,20 +28,22 @@ This repository contains a comprehensive analysis and financial model for transf
 ---
 
 ## 📁 Repository Structure
-santiago-transformation/
-├── 📄 README.md
-├── 📊 full-report-santiagos-dollar50-billion-transformation/
-│   └── Complete analysis and financial model
-├── 📈 oxford-global-index-2025/
-│   └── Current performance metrics and benchmarking data
-├── 📚 bibliography/
-│   └── Academic sources and research references
-├── 🔍 data-sources/
-│   └── Raw data, APIs, and dataset documentation
-├── 🧮 methodology/
-│   └── Analytical frameworks and calculation methods
-└── 📓 notebooks-colab.ipynb
-└── Interactive Jupyter notebooks for data analysis
+
+    santiago-transformation/
+    ├── 📄 README.md
+    ├── 📄 LICENSE
+    ├── 📊 full-report-santiagos-dollar50-billion-transformation/
+    │   └── Complete analysis and financial model
+    ├── 📈 oxford-global-index-2025/
+    │   └── Current performance metrics and benchmarking data
+    ├── 📚 bibliography/
+    │   └── Academic sources and research references  
+    ├── 🔍 data-sources/
+    │   └── Raw data, APIs, and dataset documentation
+    ├── 🧮 methodology/
+    │   └── Analytical frameworks and calculation methods
+    └── 📓 notebooks-colab.ipynb
+        └── Interactive Jupyter notebooks for data analysis
 
 ---
 
