@@ -1,0 +1,48 @@
+MIT License
+
+Copyright (c) 2025 Santiago Transformation Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including, without limitatio,n the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ADDITIONAL TERMS FOR RESEARCH AND POLICY USE:
+
+This project contains research, analysis, and policy recommendations for urban 
+transformation. While the code and methodology are provided under the MIT License, 
+
+Users are encouraged to:
+
+1. Cite this work appropriately in academic or policy publications
+2. Acknowledge the original analysis when adapting the methodology for other cities
+3. Share improvements and adaptations with the community
+4. Respect the intent of this work: advancing sustainable urban development
+
+For questions about the commercial use of the research findings or collaboration 
+opportunities, please contact the project maintainers.
+
+DATA DISCLAIMER:
+The data and analysis provided are based on publicly available sources and 
+research methodologies current as of 2025. Users should verify data accuracy 
+and adapt methodologies as appropriate for their specific use cases.
+
+POLICY DISCLAIMER:
+This project presents research findings and recommendations. Implementation 
+of any policies or projects should involve proper feasibility studies, 
+stakeholder consultation, and compliance with local regulations.
