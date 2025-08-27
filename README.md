@@ -241,7 +241,7 @@ Long-term Milestones
 
 
 📞 Contact & Support
-Project Lead: [Your Name]
+Project Lead: Alex Rojas Segovia
 
 📧 Email: alexrojas8922@gmail.com
 💼 LinkedIn: https://www.linkedin.com/in/alexrojassegovia/
@@ -264,6 +264,6 @@ International best practice case studies from Seoul, Singapore, and Copenhagen
 
 
 The Blueprint is Complete. The Financing is Structured. The Benefits are Quantified. The Timeline is Set.
-Santiago's transformation from #160 to Top 100 is not a dream. It's a $50 billion opportunity waiting for courage. Who will take the first step?
+Santiago's transformation from #160 to the Top 100 is not a dream. It's a $50 billion opportunity waiting for courage. Who will take the first step?
 
 Last Updated: August 2025
