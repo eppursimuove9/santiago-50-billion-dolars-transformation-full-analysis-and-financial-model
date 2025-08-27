@@ -243,9 +243,9 @@ Long-term Milestones
 📞 Contact & Support
 Project Lead: [Your Name]
 
-📧 Email: your.email@domain.com
-💼 LinkedIn: [Your LinkedIn Profile]
-🐙 GitHub: @yourusername
+📧 Email: alexrojas8922@gmail.com
+💼 LinkedIn: https://www.linkedin.com/in/alexrojassegovia/
+🐙 GitHub: @eppursimuove9
 
 For Government Leaders: "This is your legacy opportunity. In 10 years, you'll either be remembered as the leaders who transformed Santiago or those who let it suffocate."
 For Business Leaders: "Your choice: Invest $6B in transformation and gain $65B in returns, or watch your talent flee to cleaner cities."
