@@ -4,7 +4,8 @@
 [![Global Cities Rank](https://img.shields.io/badge/Current%20Rank-160%2F1000-red)](https://oxfordeconomics.com)
 [![Target Rank](https://img.shields.io/badge/Target%20Rank-Top%20100-green)](https://github.com/eppursimuove9/santiago-50-billion-dolars-transformation-full-analysis-and-financial-model
 )
-[![Economic Impact](https://img.shields.io/badge/Economic%20Impact-%2450B%2B-blue)](https://github.com/yourusername/santiago-transformation)
+[![Economic Impact](https://img.shields.io/badge/Economic%20Impact-%2450B%2B-blue)](https://github.com/eppursimuove9/santiago-50-billion-dolars-transformation-full-analysis-and-financial-model
+)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](license)
 
 ---
