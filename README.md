@@ -31,13 +31,13 @@ This repository contains a comprehensive analysis and financial model for transf
 
 ## 📁 Repository Structure
 
-    santiago-transformation/
-    ├── 📄 README.md
-    ├── 📄 LICENSE
+    santiago-50-billion-dolars-transformation-full-analysis-and-financial-model/
     ├── 📊 full-report-santiagos-dollar50-billion-transformation/
     │   └── Complete analysis and financial model
+    ├── 📄 LICENSE
     ├── 📈 oxford-global-index-2025/
     │   └── Current performance metrics and benchmarking data
+    ├── 📄 README.md
     ├── 📚 bibliography/
     │   └── Academic sources and research references  
     ├── 🔍 data-sources/
