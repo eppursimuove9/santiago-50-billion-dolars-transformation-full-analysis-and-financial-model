@@ -31,7 +31,8 @@ This repository contains a comprehensive analysis and financial model for transf
 
 ## 📁 Repository Structure
 
-    santiago-50-billion-dolars-transformation-full-analysis-and-financial-model/
+    santiago-50-billion-dolars-transformation-full-analysis-and-financial-model
+    
     ├── 📊 full-report-santiagos-dollar50-billion-transformation/
     │   └── Complete analysis and financial model
     ├── 📄 LICENSE
