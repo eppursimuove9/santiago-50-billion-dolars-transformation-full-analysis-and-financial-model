@@ -32,19 +32,15 @@ This repository contains a comprehensive analysis and financial model for transf
 ## 📁 Repository Structure
 
     santiago-50-billion-dolars-transformation-full-analysis-and-financial-model
-    
+    ├── 📚 bibliography/ 
+    ├── 🔍 data-sources/
+    ├── 🧮 methodology/
     ├── 📊 full-report-santiagos-dollar50-billion-transformation/
     │   └── Complete analysis and financial model
     ├── 📄 LICENSE
     ├── 📈 oxford-global-index-2025/
     │   └── Current performance metrics and benchmarking data
     ├── 📄 README.md
-    ├── 📚 bibliography/
-    │   └── Academic sources and research references  
-    ├── 🔍 data-sources/
-    │   └── Raw data, APIs, and dataset documentation
-    ├── 🧮 methodology/
-    │   └── Analytical frameworks and calculation methods
     └── 📓 notebooks-colab.ipynb
         └── Interactive Jupyter notebooks for data analysis
 
