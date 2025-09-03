@@ -6,7 +6,7 @@
 )
 [![Economic Impact](https://img.shields.io/badge/Economic%20Impact-%2450B%2B-blue)](https://github.com/eppursimuove9/santiago-50-billion-dolars-transformation-full-analysis-and-financial-model
 )
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](license)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
