@@ -114,7 +114,10 @@ While Environment ranks only 553/1000 (10% weight), its cascading impact affects
 
 The following diagrams outline the complete data flow and analytical process, from initial data sources to the final financial models and reports.
 
+### Project Component Mapping
 ![Data Analysis Workflow](assets/project-component-maping.png)
+
+### Processing and Analysis Pipeline
 ![Data Analysis Workflow](assets/data-processing-and-analysis-pipeline.png)
 
 ### Data Sources
