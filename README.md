@@ -114,7 +114,7 @@ While Environment ranks only 553/1000 (10% weight), its cascading impact affects
 
 The following diagram outlines the complete data flow and analytical process, from initial data sources to the final financial models and reports.
 
-![Data Analysis Workflow](assets/data-flow-diagram.png)
+![Data Analysis Workflow](project-component-maping.png)
 
 ### Data Sources
 - Oxford Economics Global Cities Index 2025
